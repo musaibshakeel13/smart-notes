@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Smart Notes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+  <!-- LEFT: folders -->
+  <div hidden ="sidebar">
+    <h3>Folders</h3>
+    <button onclick="selectFolder('personal')">Personal</button>
+    <button onclick="selectFolder('study')">Study</button>
+    <button onclick="selectFolder('work')">Work</button>
+  </div>
+
+  <!-- RIGHT: notes -->
+  <div class="content">
+    <h2 id="folderTitle">Notes</h2>
+    <textarea id="noteInput" placeholder="       Write note..."></textarea>
+    <button onclick="addNote()">Add Note</button>
+    <div id="notesList"></div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
