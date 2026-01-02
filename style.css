@@ -86,3 +86,70 @@ font-size: 100%;
 background-color: blanchedalmond;
 
 }
+#error {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
+}
+.login-box {
+  width: 300px;
+  margin: 80px auto;
+  padding: 20px;
+  background: white;
+  text-align: center;
+}
+
+input {
+  width: 100%;
+  margin: 5px 0;
+  padding: 8px;
+}
+
+#error {
+  color: red;
+  font-size: 14px;
+}
+.logout-btn {
+  position: fixed;   
+  top: 15px;          
+  right: 20px;         
+  padding: 8px 14px;
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.logout-btn:hover {
+  background-color: #e60000;
+}
+.note {
+  position: relative;      
+  background: #f9f9f9;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+
+.delete-btn {
+  position: absolute;
+  top: 6px;
+  right: 8px;
+  background: red;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background: darkred;
+}
+
