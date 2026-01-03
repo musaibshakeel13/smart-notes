@@ -3,9 +3,9 @@
 ********************************/
 let users = JSON.parse(localStorage.getItem("users")) || {};
 
-/********************************
+/***************
  SIGNUP
-********************************/
+********************/
 function signup() {
   let user = document.getElementById("suUser").value.trim();
   let pass = document.getElementById("suPass").value.trim();
@@ -19,7 +19,6 @@ function signup() {
     alert("Username already exists");
     return;
   }
-
   users[user] = pass;
   localStorage.setItem("users", JSON.stringify(users));
 
@@ -121,3 +120,4 @@ if (document.getElementById("notesList")) {
   window.selectFolder = selectFolder;
   window.deleteNote = deleteNote;
 }
+
