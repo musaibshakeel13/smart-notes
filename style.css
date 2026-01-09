@@ -73,8 +73,6 @@ body {
 }
 .content{
   background-color: rgb(224, 166, 31);
-
-
 }
 #folderTitle{
   
@@ -133,8 +131,6 @@ input {
   border-radius: 8px;
   font-size: 15px;
 }
-
-
 .delete-btn {
   position: absolute;
   top: 6px;
@@ -152,4 +148,5 @@ input {
 .delete-btn:hover {
   background: darkred;
 }
+
 
