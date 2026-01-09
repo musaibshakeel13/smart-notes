@@ -72,7 +72,6 @@ if (document.getElementById("notesList")) {
       work: []
     };
   }
-
   function selectFolder(folder) {
     currentFolder = folder;
     document.getElementById("folderTitle").innerText =
@@ -92,7 +91,6 @@ if (document.getElementById("notesList")) {
     input.value = "";
     showNotes();
   }
-
   function showNotes() {
     let list = document.getElementById("notesList");
     list.innerHTML = "";
@@ -120,4 +118,5 @@ if (document.getElementById("notesList")) {
   window.selectFolder = selectFolder;
   window.deleteNote = deleteNote;
 }
+
 
